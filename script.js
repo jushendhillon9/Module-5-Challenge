@@ -4,12 +4,12 @@
 
 
 
+
 //once the document is opened, this will function will run continuously
 $(function () {
   var currentDate = dayjs().format("dddd, MMMM D");
   $("#currentDay").text(currentDate);
   var currentTime = "hour-" + dayjs().format("hA");
-  var blockItemsArray = [];
   //returns an array of indexes of the matched elements that are put in the variable
   var timeContainer = $(".container-lg").children("div");
   
@@ -52,6 +52,8 @@ $(function () {
         //then find the class whose id matches the present time and make it the present class
         for (var j = 0; j < timeContainer.length; j++) {
           if ($(timeContainer[j]).attr("id") == currentTime) {  //the presentBlock is timeContainer[j]
+            // CODE STARTED WORKING RIGHT WHEN IT HIT 2PM
+            console.log("hello");
             //must wrap timeContainer[j] in $ to access jQuery method .attr()
             $(timeContainer[j]).removeClass("past");
             //must wrap timeContainer[j] in $ to access jQuery methods .removeClass() and .addClass()
