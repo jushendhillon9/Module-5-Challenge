@@ -2,4 +2,5 @@
 Description: In module five's challenge, I refactored a given started code for a Third-Party API Work Day Scheduler. Before the refactoring, the scheduler's color-coding feature, which indicates the current hour in the work day, was not working. Another issue was encountered when saving the hourly tasks in the scheduler, which was when the browser was refreshed, the tasks disappeared. Using local storage, I was able to resolve this issue. Lastly, a dynamic header was added to indicate the current date. It was implemented with DayJS.
 
 
+
 Link to Deployed Application: https://jushendhillon9.github.io/Module-5-Challenge/
