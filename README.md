@@ -3,4 +3,4 @@ Description: In module five's challenge, I refactored a given started code for a
 
 
 
-Link to Deployed Application: https://jushendhillon9.github.io/Module-5-Challenge/
+Link to Deployed Application: https://jushendhillon9.github.io/Work-Day-Scheduler-Module-5-Challenge/
